@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  padding: 10px;
+}
+
+.jumbotron {
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.time-block{
+  border-radius: 15px;
+}
+
+.row {
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top:solid 1px #000000;
+}
+
+.past {
+  background-color: #ff0000;
+}
+
+.present {
+  background-color: #ffa153;
+}
+
+.future {
+  background-color: #00aa00;
+}
+
+.saveBtn {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(85, 102, 255);
+  color: rgb(0, 0, 0);
+}

@@ -2,7 +2,7 @@ $(document).ready(function() {
 $("#currentDay").text(moment().format("dddd, MMMM Do"));
 function hourUpdater() {
     var currentHour = moment().hours();
-    $(".time-block").each(function() {
+    $(".block").each(function() {
     var blockHour = parseInt($(this).attr("id").split("-")[1]);
     if (blockHour < currentHour) {
       $(this).addClass("past");
